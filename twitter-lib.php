@@ -9,7 +9,7 @@ $include_rts = $_GET["include_rts"];
 
 $consumerkey = "XXXXX";
 $consumersecret = "XXXXX";
-$accesstoken = "112401465-XXXXX";
+$accesstoken = "XXXXX";
 $accesstokensecret = "XXXXX";
 
 function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
