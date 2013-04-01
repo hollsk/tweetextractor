@@ -7,10 +7,10 @@ $twitteruser = $_GET["screen_name"];
 $notweets = $_GET["count"];
 $include_rts = $_GET["include_rts"];
 
-$consumerkey = "ibuluHCBOmBA5JwjNCSNw";
-$consumersecret = "epBGJ5w2jg7QjXEqEPRj5MQtyiqdjxWoXAdu3S4U";
-$accesstoken = "112401465-4CDOXWxz2R8YGP3xk9VZDRvAjzw9ETMK0mywD0Bo";
-$accesstokensecret = "Iz22NPIakj6L3edNe45BFVHPUIxowwhK9YhgyySW6I";
+$consumerkey = "XXXXX";
+$consumersecret = "XXXXX";
+$accesstoken = "112401465-XXXXX";
+$accesstokensecret = "XXXXX";
 
 function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
   $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
