@@ -7,6 +7,7 @@ $twitteruser = $_GET["screen_name"];
 $notweets = $_GET["count"];
 $include_rts = $_GET["include_rts"];
 
+// Your API details - get these from Twitter
 $consumerkey = "XXXXX";
 $consumersecret = "XXXXX";
 $accesstoken = "XXXXX";
