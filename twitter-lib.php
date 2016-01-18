@@ -21,5 +21,6 @@ function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oa
 $connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
 $tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets."&include_rts=".$include_rts);
 
-echo 'twitterApiCallback(' . json_encode($tweets) . ');';
+// this is called as a javascript file by getScript in js/twitterfeed.js
+echo json_encode($tweets);
 ?>
