@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 session_start();
 require_once('twitteroauth-master/twitteroauth/twitteroauth.php'); //Path to twitteroauth library
 
-$twitteruser = $_GET["screen_name"];
+$twitteruser = "XXXXXX";
 $notweets = $_GET["count"];
 $include_rts = $_GET["include_rts"];
 

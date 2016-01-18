@@ -10,6 +10,8 @@ The webservice is trivial but means you won't need to waste your own precious ti
 
 Set up a new application for your webservice once on Twitter here: https://dev.twitter.com/apps/new
 
-Upload the files to a server. Edit twitter-lib.php to add your own API information from Twitter. 
+Upload the twitteroauth-master directory and twitter-lib.php to a server. Edit twitter-lib.php to add your own API information from Twitter. 
 
-Follow the instructions in index.php on your server. That's it! 
+Add the contents of index.html to your page, add the contents of css/screen.css to your CSS file, and include js/twitter.js on the page.
+
+That's it!
